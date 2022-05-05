@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.winsContainer{
+    display: flex;
+    align-items: center;
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    box-shadow: 0 0px 1px 10px  rgb(0, 0, 0) ;
+}
+.wins{
+    color: rgb(255, 145, 0);
+}
+.losses{
+    color: red;
+}

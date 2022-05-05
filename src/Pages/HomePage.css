@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+}
+.form{
+    max-width: 600px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 1s all;
+}
+.form:hover{
+    box-shadow: 0 0px 20px 0  rgb(255, 255, 255) ;
+}
+.form-control{
+    height: 60px;
+    width: 430px;
+    margin-bottom: 10px;
+}

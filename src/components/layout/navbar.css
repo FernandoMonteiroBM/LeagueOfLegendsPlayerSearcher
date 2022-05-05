@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: crimson;
+    padding: 1em;
+}
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0px;
+    justify-content: space-around;
+}
+.logo {
+    width: 100px;
+}
+.link {
+    margin-right: 16px;
+    text-decoration: none;
+    color: white;
+    transition: 1s all;
+    font-size: 24px;
+}
+.link:hover{
+    color: orange;
+}
+.title{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    min-height: 60px;
+    margin-bottom: 0px;
+}
